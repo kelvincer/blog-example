@@ -1,6 +1,6 @@
 title: Blog
 theme: jekyll-theme-hacker
-markdown: kramdown
+#markdown: kramdown
 highlighter: rouge
 kramdown:
     input: GFM
