@@ -115,3 +115,24 @@ int main(void)
     return 0;
 }
 ```
+# Shell output
+```shell
+root@6ed89fd004e8:/usr/src/VSCode/libcurl# valgrind --tool=memcheck --leak-check=yes ./o
+==617== Memcheck, a memory error detector
+==617== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==617== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==617== Command: ./o
+==617==
+POST request sent successfully.
+Response data:
+{"name":"John Doe","job":"Software Developer","id":"649","createdAt":"2024-08-29T22:41:59.381Z"}
+==617==
+==617== HEAP SUMMARY:
+==617==     in use at exit: 0 bytes in 0 blocks
+==617==   total heap usage: 143,331 allocs, 143,331 frees, 6,378,789 bytes allocated
+==617==
+==617== All heap blocks were freed -- no leaks are possible
+==617==
+==617== For lists of detected and suppressed errors, rerun with: -s
+==617== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+``` 
