@@ -116,10 +116,10 @@ int main(void)
 }
 ```
 # Shell output
-```shell
+```console
 root@6ed89fd004e8:/usr/src/VSCode/libcurl# valgrind --tool=memcheck --leak-check=yes ./o
 ==617== Memcheck, a memory error detector
-==617== Copyright (C) 2002-2022, and GNU GPL\'d, by Julian Seward et al.
+==617== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
 ==617== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
 ==617== Command: ./o
 ==617==
