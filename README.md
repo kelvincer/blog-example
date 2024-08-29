@@ -3,7 +3,7 @@ blog
 
 # Code
 
-```C
+```c
 // Create a function
 void myFunction() {
     printf("I just got executed!");
