@@ -1,5 +1,5 @@
 title: Blog
-theme: jekyll-theme-tactile
+theme: jekyll-theme-hacker
 markdown: kramdown
 highlighter: rouge
 kramdown:
