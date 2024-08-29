@@ -1,5 +1,5 @@
 title: Blog
-theme: jekyll-theme-hacker
+theme: jekyll-theme-dinky
 #markdown: kramdown
 highlighter: rouge
 kramdown:
