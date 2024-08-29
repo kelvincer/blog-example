@@ -1,5 +1,5 @@
 title: Blog
-theme: jekyll-theme-modernist
+#theme: jekyll-theme-modernist
 markdown: kramdown
 highlighter: rouge
 kramdown:
