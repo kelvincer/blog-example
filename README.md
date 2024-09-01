@@ -1,6 +1,3 @@
-# blog-example
-blog
-
 # Code
 ```c
 #include <curl/curl.h>
