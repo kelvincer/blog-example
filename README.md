@@ -1,4 +1,5 @@
 # Code
+This is how to make a POST request using libcurl library.
 ```c
 #include <curl/curl.h>
 
@@ -32,7 +33,8 @@ int main()
     return 0;
 }
 ```
-# Shell output
+# Console output
+Here is the output of the previous code, running on macOS. I am using leaks to check if I am getting some memory leaks.
 ```console
 MacBook-Pro-de-kelvin:libcurl kelvinc$ leaks --atExit --list  -- ./o
 o(72615) MallocStackLogging: could not tag MSL-related memory as no_footprint, so those pages will be included in process footprint - (null)
