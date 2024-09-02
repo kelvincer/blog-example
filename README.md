@@ -1,5 +1,5 @@
 # Code
-This is how to make a POST request using libcurl library.
+This is how to make a POST request using libcurl library using the C programming language.
 ```c
 #include <curl/curl.h>
 
@@ -34,7 +34,13 @@ int main()
 }
 ```
 # Console output
-Here is the output of the previous code, running on macOS. I am using leaks to check if I am getting some memory leaks.
+Here is the output of the previous code, running on macOS.
+```console
+MacBook-Pro-de-kelvin:libcurl kelvinc$ gcc -o o main.c -lcurl -g -std=c17
+MacBook-Pro-de-kelvin:libcurl kelvinc$ ./o
+{"status":"success","data":{"name":"test","salary":"123","age":"23","id":6413},"message":"Successfully! Record has been added."}
+```
+This is the output using leaks tool in macOS to check memory leaks.
 ```console
 MacBook-Pro-de-kelvin:libcurl kelvinc$ leaks --atExit --list  -- ./o
 o(72615) MallocStackLogging: could not tag MSL-related memory as no_footprint, so those pages will be included in process footprint - (null)
