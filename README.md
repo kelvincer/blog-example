@@ -1,5 +1,5 @@
 # Code
-This is how to make a POST request using libcurl library using the C programming language. I am using [TMDB](https://developer.themoviedb.org/reference/intro/getting-started) to make this demo.
+This is how to make a POST request using libcurl library using the C programming language. I am using [TMDB](https://developer.themoviedb.org/reference/intro/getting-started) api to make this demo.
 ```c
 #include <curl/curl.h>
 
