@@ -25,7 +25,7 @@ int main()
         struct curl_slist *headers = NULL;
         headers = curl_slist_append(headers, "accept: application/json");
         headers = curl_slist_append(headers, "Content-Type: application/json;charset=utf-8");
-        headers = curl_slist_append(headers, "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2NDM1MTgzZmM4ZTgyOTQ3OGNiNWY4NTM5ZWZkMWU3MSIsIm5iZiI6MTcyNzAyODk1My45NTM4NzUsInN1YiI6IjVjNjA0NjE1OTI1MTQxMzM3NmMwMWQ3OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ojN56CsCIKIhTfNlXob_o48Npl3xBiznLJls-jrNMRY");
+        headers = curl_slist_append(headers, "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2NDM1MTgzZmM4ZTgyOTQ3OGNiNWY4NTM5ZWZkMWU3MSIsIm5iZiI6MTcyNzAyODk1My45NTM4NzUsInN1YiI6IjVjNjA0NjE1OTI1MTQxMzM3NmMwMWQ3OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ojN56CsCIKIhTfNlXob_o48Npl3xBiznLJ....."); // This is not the complete key
 
         curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
         curl_easy_setopt(curl, CURLOPT_POSTFIELDS, jsonString);
